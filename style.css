@@ -1,0 +1,289 @@
+body{
+
+    background-color: black;
+    color: white;
+}
+
+
+.presentation .img-fluid{
+    width: 1700px;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+} 
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 30% ;
+    left:40% ; 
+    transform: translate(-50% , -50%);
+    color: white;
+    padding: 10px;
+}
+
+.nav{
+
+    background-color: black;
+
+}
+
+.btn .btn{
+    position: absolute;
+    top: 90%;
+    left: 78%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(22, 20, 20);
+    color: blue;
+}
+
+.btn2 .btn{
+    position: absolute;
+    top: 90%;
+    left: 89%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(22, 20, 20);
+    color: blue;
+}
+
+
+/*Sobre mi*/
+
+.description {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #00b4d8;
+    margin-left: 50%
+    
+}
+
+
+
+/* Proyectos */
+
+.proyectos-recientes .seccion-titulo{
+
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 32px;
+    color: #f0ebd8;
+
+}
+
+
+.proyectos-recientes .seccion-descripcion{
+    text-align: center;
+    color: #f0ebd8;
+}
+
+.proyectos-recientes {
+    padding: 40px;
+  }
+  
+  .proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+  
+  .proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto {
+    position: relative;
+  }
+  
+  .proyecto:hover img {
+    opacity: 0.2;
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+  }
+  
+  .overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+  }
+
+  
+
+  /* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 300px;
+  padding: 20px;
+
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: #669bbc;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
+
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 500px;
+  background-color: #274c77;
+  margin-top: -50px;
+ 
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+  color:white
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}

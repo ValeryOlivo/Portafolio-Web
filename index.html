@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valery Olivo | Desarrollo Web Front-End</title>
+    <link rel="stylesheet" href="/style.css">
+    <!--Favicon-->
+    <link rel="icon" href="img/disenador.png" type="image/x-icon">
+    <!--Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Barra de navegacion-->
+
+    <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Testimonios</a>
+          </li>
+      </ul>
+
+
+    <!--Presentacion-->
+    <div class="presentation" id="inicio">
+        <section>
+            <img src="https://i.pinimg.com/564x/24/b3/75/24b375f5031838629303cede79404cb5.jpg" class="img-fluid" alt="..">
+            <h1 style="font-size: 60px ;">Hola, soy Valery Olivo</h1>
+            <h2 class="text-primary mb-4" id="typewriter" style="position: absolute; top: 50%; left: 10%; transform: translate(-5%, -5%); background: rgba(0, 0, 0, 0); padding: 10px; margin-right:50%; color: white;"></h2>
+        </section>
+
+        <a href="#aboutme" class="btn"> <button type="button" class="btn btn-dark" style="font-family: Arial, Helvetica, sans-serif; color: blue; background-color: #ced4da;  border: none;">Sobre mí</button> </a>
+
+         <a href="#proyectos" class="btn2"> <button type="button" class="btn btn-dark" style="font-family: Arial, Helvetica, sans-serif; color: blue; background-color: #ced4da;  border: none;">Proyectos</button> </a>
+   
+    </div>
+
+
+    <!--Seccion sobre mi -->
+
+
+    <div id="aboutme" class="sec-aboutme" style="background-color: #495057; margin-top:-50px;">
+
+        <img src="/img/hero-inferior.svg" class="img-thumbnail" style="width: 50%; height: 700px; background-color:#495057; border: none; float: left; margin-right: 20px;" alt="...">
+
+        <br><br><br><br><br>
+        <p class="description" >Ingeniera en Computación en proceso... <br>
+            Estudiante de la Facultad de Ingeniería en la UNAM. <br>
+            Mi objetivo es especializarme en el desarrollo web.
+            Busco oportunidades para mantenerme al día con las últimas tendencias y tecnologías en el desarrollo web, y estoy dispuesto a enfrentar nuevos desafíos y aprender de cada experiencia.
+            Asi como aprender lo necesario para la creación de un nuevo proyecto. <br>
+            En esta página encontraras los proyectos que he realizado...  
+        </p>
+
+        <br><br><br><br><br><br>
+    </div>
+    
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column" style="background-color: #6c757d;">
+    <h2 class="seccion-titulo texto-negro">Proyectos recientes</h2>
+    <h3 class="seccion-descripcion"> Estos son algunos de mis proyectos ...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row" style="justify-content: center;">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="https://i.pinimg.com/564x/41/7c/62/417c6272d5856068eeb52e453681d5b3.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Google Clone</p>
+              <div class="iconos-contenedor">
+                <a href="https://gloogle-clone-valery.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://gloogle-clone-valery.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="https://i.pinimg.com/564x/0f/a4/5b/0fa45bf02d732b0972680acd39609d64.jpg" alt="Proyecto 1" style=" height: 190px;">
+            <div class="overlay">
+              <p>Book Friend</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://bookfriend-valery.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+<!-- Contacto -->
+<section id="contacto" class="contacto seccion-oscura">
+  <div class="container">
+    <div class="container text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo" style="font-family: 'Rubik Dirt', cursive; font-size: 30px;">
+          ¡Contactame!
+        </div>
+        <div class="col-12 col-md-4 descripcion">
+          Si te gusto alguno de mis proyectos o quieres darme al oportunidad de colaborar contigo, enviame un correo .
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="mailto:janedoe@micorreo.com">
+            <button type="button">  
+              val.jazminolivo@gmail.com
+              <i class="bi bi-envelope-check-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Pie de pagina (footer) -->
+ <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+  <img class="footer-logo" src="img/disenador.png" alt="Logo del portafolio">
+  <p class="footer-texto text-center">Cada línea de código es un ladrillo en la construcción de un mundo digital <br>lleno de posibilidades</p>
+  <div class="derechos-de-autor">Creado por Valery Olivo (2023) &#169;</div>
+</footer>
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
